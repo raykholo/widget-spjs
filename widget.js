@@ -37,10 +37,17 @@ cprequire_test(["inline:com-chilipeppr-widget-serialport"], function (sp) {
         }
     }
     //test2()
+    
+    
 
     setTimeout(function() {
         chilipeppr.publish("/com-chilipeppr-widget-serialport/requestSingleSelectPort", "");
     }, 2000);
+    
+    //ray hello test here
+    setTimeout(function() {
+        chilipeppr.publish("/com-chilipeppr-widget-serialport/requestSingleSelectPort", "");
+    }, 7000);
     
     /*
     setTimeout(function() {
